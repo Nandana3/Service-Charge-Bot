@@ -6,14 +6,14 @@ A dual-interface Streamlit application serving two audiences: **expatriate emplo
 
 ## Overview
 
-Expatriate workers in Kuwait are often unaware of what they are legally owed when their employment ends. Calculating indemnity is non-trivial: it depends on tenure, reason for leaving, job category, and salary — and errors or omissions by employers are common triggers for labour disputes.
+Expatriate workers in Kuwait are often unaware of what they are legally owed when their employment ends. Calculating indemnity is non-trivial: it depends on tenure, reason for leaving, job category, and salary - and errors or omissions by employers are common triggers for labour disputes.
 
 **For employees:**
-- **Know your rights** — compute the exact indemnity owed based on your employment details
-- **No legal background needed** — plain-language output, self-serve interface
+- **Know your rights** - compute the exact indemnity owed based on your employment details
+- **No legal background needed** - plain-language output, self-serve interface
 
 **For employers:**
-- **Assess dispute risk** — predict the probability that an employee is likely to escalate to a formal labour dispute, enabling early intervention
+- **Assess dispute risk** - predict the probability that an employee is likely to escalate to a formal labour dispute, enabling early intervention
 
 ---
 
