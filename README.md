@@ -1,6 +1,6 @@
 # Kuwait Expat Service Entitlement & Dispute Risk Tool
 
-A Streamlit application that helps **expatriate employees in Kuwait** understand the indemnity (end-of-service benefit) their employer legally owes them under Kuwait Labour Law — and flags whether their situation carries a risk of dispute.
+A dual-interface Streamlit application serving two audiences: **expatriate employees** who want to know the indemnity their employer legally owes them under Kuwait Labour Law, and **employers** who want to assess the probability that an employee is likely to file a labour dispute.
 
 ---
 
@@ -8,11 +8,12 @@ A Streamlit application that helps **expatriate employees in Kuwait** understand
 
 Expatriate workers in Kuwait are often unaware of what they are legally owed when their employment ends. Calculating indemnity is non-trivial: it depends on tenure, reason for leaving, job category, and salary — and errors or omissions by employers are common triggers for labour disputes.
 
-This tool puts that calculation directly in the employee's hands:
-
+**For employees:**
 - **Know your rights** — compute the exact indemnity owed based on your employment details
-- **Understand your risk** — see whether your situation is likely to lead to a dispute, based on patterns in similar cases
 - **No legal background needed** — plain-language output, self-serve interface
+
+**For employers:**
+- **Assess dispute risk** — predict the probability that an employee is likely to escalate to a formal labour dispute, enabling early intervention
 
 ---
 
@@ -28,8 +29,8 @@ Computes end-of-service entitlements per Kuwait Labour Law rules based on:
 Outputs the indemnity amount the employer is legally obligated to pay.
 
 ### 2. Dispute Risk Predictor *(Supporting Feature)*
-- Random Forest classifier that predicts whether a labour dispute is likely to be filed
-- Helps employees assess whether their case warrants escalation
+- Random Forest classifier that predicts the probability an employee is likely to file a labour dispute
+- Designed for **employers** to proactively identify high-risk cases and intervene before escalation
 - 85%+ validation accuracy on held-out test data
 
 ---
@@ -122,7 +123,7 @@ joblib
 
 ## Context
 
-Built during an internship at **Glorosh International** (Apr–Jul 2025), where the legal team handled Kuwait expatriate labour disputes. The tool was designed to serve two audiences: employees wanting to understand their rights, and the legal team needing to triage high-risk cases early.
+Built during an internship at **Glorosh International** (Apr–Jul 2025), where the legal team handled Kuwait expatriate labour disputes. The tool serves two distinct audiences: expatriate employees wanting to understand what indemnity they are legally owed, and employers wanting to anticipate and manage dispute risk before it escalates.
 
 ---
 
